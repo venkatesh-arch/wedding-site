@@ -41,7 +41,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("time").innerHTML = "We eagerly await your kind presence and blessings in auspicious occasion of our families";
+        document.getElementById("time").innerHTML = "We are eagerly waiting for your kind presence and blessings on our families significant occasion";
     }
 }, 1000);
 
