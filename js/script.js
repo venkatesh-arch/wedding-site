@@ -4,7 +4,6 @@
      var images = ['background.svg', 'background-2.svg', 'background-4.svg', 'background.svg', 'background-3.svg'];
 
      $('body').css({ 'background-image': 'url(assets/' + images[Math.floor(Math.random() * images.length)] + ')' });
-     $("#my_audio").play();
  })(jQuery);
 
  /**
@@ -13,8 +12,8 @@
   * Let's keep the sky-high status of this song untouched!
   *
   */
- $(document).ready(function() {
-
+ $(document).on('load', function() {
+     document.getElementById("my_audio").play();
 
  });
 
