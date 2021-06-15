@@ -1,7 +1,7 @@
  (function($) {
      "use strict";
      $('.sakura-falling').sakura();
-     var images = ['background.svg', 'background-2.svg', 'background-4.svg', 'background-3.svg', 'background.svg'];
+     var images = ['background.svg', 'background-2.svg', 'background.svg', 'background-3.svg', 'background.svg'];
 
      $('body').css({ 'background-image': 'url(assets/' + images[Math.floor(Math.random() * images.length)] + ')' });
  })(jQuery);
@@ -12,7 +12,7 @@
   * Let's keep the sky-high status of this song untouched!
   *
   */
- $(document).ready(function() {
+ $(document).on('click', function() {
      document.getElementById("my_audio").play();
 
  });
