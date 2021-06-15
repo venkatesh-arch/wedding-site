@@ -1,7 +1,7 @@
  (function($) {
      "use strict";
      $('.sakura-falling').sakura();
-     var images = ['background.svg', 'background-2.svg', 'background.svg', 'background-3.svg', 'background.svg'];
+     var images = ['background.svg', 'background-2.svg', 'background-4.svg', 'background.svg', 'background-3.svg'];
 
      $('body').css({ 'background-image': 'url(assets/' + images[Math.floor(Math.random() * images.length)] + ')' });
  })(jQuery);
