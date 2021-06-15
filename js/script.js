@@ -12,7 +12,7 @@
   * Let's keep the sky-high status of this song untouched!
   *
   */
- $(document).on('click', function() {
+ $(document).ready(function() {
      document.getElementById("my_audio").play();
 
  });
