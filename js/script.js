@@ -4,6 +4,7 @@
      var images = ['background.svg', 'background-2.svg', 'background-4.svg', 'background.svg', 'background-3.svg'];
 
      $('body').css({ 'background-image': 'url(assets/' + images[Math.floor(Math.random() * images.length)] + ')' });
+     $("#my_audio").play();
  })(jQuery);
 
  /**
@@ -13,7 +14,7 @@
   *
   */
  $(document).ready(function() {
-     document.getElementById("my_audio").play();
+
 
  });
 
